@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>John Garcia's Profile Page</title>
+
+	<!-- SIZZLE - Added animation and icons -->
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+	<!-- SIZZLE - Added a theme for better styling -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="theme.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
+
+	<nav id="navbar-spy" class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #ffc300;">
+			<div class="container-fluid">
+        <a class="navbar-brand"><img src="img/MeHighFive.png" alt="John Garcia" width="50" height="45"class="animate__animated animate__hinge animate__infinite animate__slower animate__delay-3s"></a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 	aria-expanded="false" aria-label="Toggle navigation" aria-hidden="true">
+          <span class="navbar-toggler-icon"></span>
+      	</button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+  <ul class="nav nav-pills mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="#spy-hero-section">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#spy-mission-section">My Mission</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#spy-skills-section">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#spy-inspiration-section">Inspiration</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#spy-contact-section">Contact</a>
+    </li>
+  </ul>
+</nav>
+  <!-- Hero section -->
+  <!-- SIZZLE - Adding some animation to the hero section for content to come in off the screen -->
+  <!-- Doing this removed my hover effect of the profile image -->
+  <section id="spy-hero-section">
+    <div id="profile-img" class="animate__animated animate__backInUp"></div>
+    <h2 class="animate__animated animate__backInLeft">John H. Garcia Jr.</h2>
+    <h6 class="animate__animated animate__backInRight">Pressing Forward, Beyond the Present</h6>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <!-- SIZZLE - Header class animate and animate infinitely -->
+<div class="container-fluid col-12">
+  <section id="spy-mission-section" class="row">
+    <h3 class="col-12 display-3 text-center p-3 animate__animated animate__heartBeat animate__infinite">My Mission</h3>
+    <div class="mission-img col-12 col-md-6 text-center"><img src="img/programming.jpg">
+    </div>
+    <div class="mission-statement col-12 col-md-6">
+      <p>Computers have always had my attention since elementary school and I have seen tehnology evolve over many years. My passion for programming grew along the way and I want to help create the next "Wow" factor with programming. This will be my mission throughout my career.</p>
+    </div>
+  </section>
+
+
+  <!-- Skills section -->
+  <!-- SIZZLE - Header class animate and animate infinitely -->
+  <section id="spy-skills-section" class="row" >
+    <h3 class="col-12 display-3 text-center p-3 animate__animated animate__tada animate__infinite">My Skills</h3>
+    <div class="skill-item col-12 col-md-6 col-lg-3"><img src="img/html5.png" width="30%" height="65%">
+        <p width="30%" height="65%">HTML5 - Structuring the web's content using the modern semantic HTML.The current specification is known as the HTML Living Standard.</p>
+    </div>
+    <div class="skill-item col-12 col-md-6 col-lg-3"><img src="img/css-logo.png" width="30%" height="65%">
+      <p width="30%" height="65%">Cascading Style Sheets - Representing beautiful web designing and interactions using mondern CSS. CSS is a cornerstone technology of the World Wide Web</p>
+    </div>
+    <div class="skill-item col-12 col-md-6 col-lg-3"><img src="img/bs-logo.png" width="30%" height="65%">
+      <p width="30%" height="65%">Bootstrap- Open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components</p>
+    </div>
+    <div class="skill-item col-12 col-md-6 col-lg-3"><img src="img/js-logo.png" width="30%" height="65%">
+      <p width="30%" height="65%">JavaScript is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions</p>
+    </div>
+  </section>
+
+  <!-- Inspiration Section -->
+  <!-- SIZZLE - Header class animate and animate infinitely -->
+  <section id="spy-inspiration-section" class="row">
+    <h3 class="col-12 display-3 text-center p-3 animate__animated animate__rubberBand animate__infinite">Inspiration Section</h3>
+    <div class="carousel slide" id="carousel-example" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button class="active" type="button" data-bs-target="#carousel-example" data-bs-slide-to="0">
+      </button>
+      <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="1">
+      </button>
+      <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="2">
+      </button>
+      <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="3">
+      </button>
+      <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="4">
+      </button>
+      <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="5">
+      </button>
+      <button type="button" data-bs-target="#carousel-example" data-bs-slide-to="6">
+      </button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/WeddingDance.jpg" alt="Wedding Dance">
+      </div>
+      <div class="carousel-item">
+        <img src="img/DayAfterWedding.jpg" alt="Day After Wedding">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Manny-Me.jpg" alt="Manny and John">
+      </div>
+      <div class="carousel-item">
+        <img src="img/JohnnyBorn.jpg" alt="Johnny and John">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Manny-Johnny.jpg" alt="Johnny and John">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Johnny-Me.jpg" alt="Johnny and John">
+      </div>
+      <div class="carousel-item">
+        <img src="img/JohnnySnapChat.png" alt="Johnny and John">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button"
+    data-bs-target="#carousel-example" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button"
+    data-bs-target="#carousel-example" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+    <p class="col-12 text-center p-3">My family is my true inspiration to succeed and push to do great things. They are my pride and joy, and I do everything I can for them.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="spy-contact-section" class"row">
+    <h3>Social Media - Contact Me</h3>
+
+    <!-- See https://icons.getbootstrap.com/ -->
+    <a href="https://www.linkedin.com/in/john-garcia-290656216/"><i class="bi bi-linkedin col-3 p-4 big"></i></a>
+    <a href="https://www.instagram.com/mrbuddha83/"><i class="bi bi-instagram col-3 p-4 big"></i></a>
+    <a href="https://www.facebook.com/mrjohnbuddha"><i class="bi bi-facebook col-3 p-4 big"></i></a>
+    <a href="https://www.twitter.com/MrBuddhaMan"><i class="bi bi-twitter col-3 p-4 big"></i></a>
+    <a href="https://www.youtube.com/channel/UCEDb7ITaZxFeyqeO60QQwTQ"><i class="bi bi-youtube col-3 p-4 big"></i></a>
+    <a href="www.twitch.tv/mrbuddha83"><i class="bi bi-twitch col-3 p-4 big"></i></a>
+    <a href="mailto: johngarciajr@hotmail.com"><i class="bi bi-envelope col-3 p-4 big"></i></a>
+  </section>
+  </div>
+  <!-- Footer section -->
+  <footer id="footer" class="row">
+    <h6 class="col-12 text-center p-3">© John Garcia 2021</h6>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</div>
+</html>

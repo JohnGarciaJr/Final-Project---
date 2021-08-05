@@ -1,0 +1,108 @@
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+.navbar-brand img {
+  border-radius: 20%;
+  margin-left: 50px;
+}
+
+body {
+  margin-top: 20px;
+}
+
+#spy-hero-section {
+  background-color:#ffc300;
+  background-image: url(img/water-bg.gif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: clamp(100px, 20vh, 200px) 0;
+}
+
+#profile-img {
+  margin: clamp(10px, 20vh, 100px) auto;
+  background-image: url(img/JustMe.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 5px solid rgba(255, 195, 0, 0.5);
+  border-radius: 50%;
+  transition-duration: .3s;
+  height: clamp(100px, 20vh, 200px);
+  width: clamp(100px, 20vh, 200px);
+}
+#profile-img:hover {
+  transform: rotate(15deg) scale(1.4);
+  overflow: hidden;
+}
+
+#spy-hero-section h2 {
+  color: #ffc300;
+  text-shadow: .5px .5px whitesmoke;
+  text-align: center;
+  font-size: clamp(1rem, 6vw, 2rem); 
+}
+#spy-hero-section h6 {
+  color: #ffc300;
+  text-shadow: .5px .5px whitesmoke;
+  text-align: center;
+  font-style: italic;
+}
+
+#spy-mission-section {
+  background-color: #ffc300;
+  color: blue;
+  font-style: italic;
+  padding-top: 50px;
+}
+.mission-img img {
+  width: 70%;
+  height: 95%;
+  border-radius: 10%
+}
+
+#spy-skills-section {
+  color: blue;
+  overflow: hidden;
+  padding: 20px;
+  object-fit: cover;
+  text-align: center;
+  font-size: .7rem;
+  font-style: italic;
+  padding-top: 50px;
+}
+
+#spy-inspiration-section {
+  background-color: #FFC300;
+  color: blue;
+  text-align: center;
+  font-style: italic;
+  padding-top: 50px;
+}
+
+.carousel-item img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+#spy-contact-section {
+  color: blue;
+  text-align: center;
+  height: 200px;
+  font-style: italic;
+}
+
+.big {
+  font-size: 3rem;
+  color: blue;
+  transition-duration: .5s;
+}
+.big:hover {
+  font-size: 3.25rem;
+}
+
+#footer {
+  background-color: #FFC300;
+  color: blue;
+}
